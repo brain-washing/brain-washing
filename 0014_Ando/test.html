@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
+  
+<div class="webgl-content">
+ <div id="gameContainer" style="width: 960px; height: 600px">
+  <input type=image onclick="LoadWebGL();" src="https://brain-washing.github.io/brain-washing/TemplateData/ClickToPlay_960x600.png">
     <div id="unity-container" class="unity-desktop" input type=image onclick="LoadWebGL();" src="https://brain-washing.github.io/brain-washing/TemplateData/ClickToPlay_960x600.png">
       <canvas id="unity-canvas" width=1024 height=768 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
@@ -23,9 +27,11 @@
         <div id="unity-build-title">2Dcat</div>
       </div>
     </div>
+  </div>
+</div>
     <script>
 
-    // WebGLãƒ•ã‚¡ã‚¤ãƒ«ã®ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ä½œæˆï¼ˆãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ï¼‰å‡¦ç†
+    // WebGLƒtƒ@ƒCƒ‹‚ÌƒCƒ“ƒXƒ^ƒ“ƒXì¬iƒ_ƒEƒ“ƒ[ƒhjˆ—
     var gameInstance;
 	function LoadWebGL() {
             //$(".fullscreen").show();
